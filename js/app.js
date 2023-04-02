@@ -441,7 +441,8 @@ document.addEventListener('DOMContentLoaded', () => {
         div.innerHTML = `
         <p class="mt-0 mb-1 mx-0 p-0 text-light">Kepada Yth Bapak/Ibu/Saudara/i</p>
         <h2 class="text-light">${name}</h2>
-        <p>Kami dengan hormat mengundang Anda untuk dapat hadir dalam acara pernikahan kami</p>
+        <br/>
+        <p class="mt-0 mb-1 mx-0 p-0 text-light">Kami dengan hormat mengundang Anda untuk dapat hadir dalam acara pernikahan kami</p>
         `;
 
         document.getElementById('formnama').value = name;
