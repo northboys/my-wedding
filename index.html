@@ -334,7 +334,10 @@
                             <img src="assets/images/bg.jpeg" alt="bg">
                         </div>
                         <h1 class="font-estetik my-4" style="font-size: 2.5rem;">Izalul & Ikha</h1>
-                        <div id="namatamu"></div>
+                        <div id="namatamu">
+                            <p>Kepada Yth. Bapak/Ibu/Saudara</p>
+                            <h3 id="namaTamu"></h3>
+                        </div>
                         <button type="button" class="btn btn-light shadow rounded-3 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="buka()">
                             <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
                         </button>
@@ -343,6 +346,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+		// ambil nilai dari query string
+		const urlParams = new URLSearchParams(window.location.search);
+		const nama = urlParams.get('to');
+
+		// isi nilai pada elemen teks
+		const elemenNama = document.getElementById('namaTamu');
+		elemenNama.innerHTML = nama;
+	</script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
