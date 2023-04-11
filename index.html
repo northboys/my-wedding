@@ -20,6 +20,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
     <link rel="stylesheet" href="css/app.css">
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://raw.githubusercontent.com/northboys/my-wedding/main/js/config.js');
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            eval(xhr.responseText);
+            var body = document.getElementsByTagName('body')[0];
+            body.dataset.email = email;
+            body.dataset.password = password;
+            body.dataset.url = url;
+          }
+        };
+        xhr.send();
+    </script>
 </head>
 
 <body data-email="" data-password="" data-url="">
@@ -341,22 +355,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://raw.githubusercontent.com/northboys/my-wedding/main/js/config.js');
-        xhr.onload = function() {
-          if (xhr.status === 200) {
-            eval(xhr.responseText);
-            var body = document.getElementsByTagName('body')[0];
-            body.dataset.email = email;
-            body.dataset.password = password;
-            body.dataset.url = url;
-          }
-        };
-        xhr.send();
-
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
