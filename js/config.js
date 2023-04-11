@@ -1,7 +1,4 @@
-var email = "user@example.com";
-var password = "12345678";
+var email = "user@izalul.com";
+var password = "tH&8ILmVng8d3";
 var url = "https://api.wedding.izalul.com";
 
-window.email = email;
-window.password = password;
-window.url = url;
