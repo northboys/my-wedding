@@ -12,7 +12,7 @@
 Web: https://wedding.izalul.com/?to=Teman+teman
 API: https://api.wedding.izalul.com/
 ```
-### Example format share
+### Example format broadcast
 ```
 Dear Teman-teman,
 
