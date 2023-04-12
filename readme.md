@@ -20,7 +20,7 @@ Dengan segala kerendahan hati dan dengan ungkapan syukur atas karunia Tuhan Yang
 
 � Ika & Izalul �
 
-Klik tautan berikut untuk membuka undangan :
+Klik tautan berikut untuk membuka undangan:
 
 https://wedding.izalul.com/?to=Teman+teman
 
