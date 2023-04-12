@@ -7,4 +7,8 @@
 - Google Fonts
 - Vanilla JS
 
-### Terima kasih banyak teman teman
+### Demo
+```
+Web: https://wedding.izalul.com/?to=Teman+teman
+API: https://api.wedding.izalul.com/
+```
